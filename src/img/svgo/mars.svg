@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176.33" height="193.22" viewBox="0 0 176.33 193.22">
+  <defs>
+    <clipPath id="clip-path" transform="translate(-311.63 -303.85)">
+      <circle cx="399.17" cy="403.21" r="74.17" style="fill: #b29a76"/>
+    </clipPath>
+  </defs>
+  <title>Untitled-3</title>
+  <g>
+    <circle cx="87.55" cy="99.36" r="74.17" style="fill: #b29a76"/>
+    <g style="clip-path: url(#clip-path)">
+      <polygon points="87.55 99.36 26 57.96 75.81 0 157.22 29.03 157.02 49.36 87.55 99.36" style="fill: #96745e"/>
+      <polygon points="10.49 136.21 61.36 139.92 94.14 88.46 12.35 53.52 10.49 136.21" style="fill: #876951"/>
+      <polygon points="60.83 139.61 29.1 158.4 80.26 193.22 112.4 173.53 111.72 168.53 60.83 139.61" style="fill: #bca280"/>
+      <polygon points="118.42 112.04 60.83 139.61 111.72 168.53 118.42 112.04" style="fill: #a59375"/>
+      <polygon points="61.36 139.92 118.42 112.04 152.59 51.39 87.55 99.36 61.36 139.92" style="fill: #876951"/>
+      <polygon points="21.18 66.23 51.05 78.47 87.55 99.36 91.74 45.55 87.55 25.2 71.59 20.36 28.57 36.62 21.18 66.23" style="fill: #998568"/>
+      <polygon points="161.12 124.64 142.1 122.48 118.42 112.04 147.14 53.94 176.33 69.55 161.12 124.64" style="fill: #93765c"/>
+      <polygon points="46.14 77.61 87.55 22.01 122.99 34.64 87.55 99.36 46.14 77.61" style="fill: #93765c"/>
+      <polygon points="87.55 99.36 13.38 116.81 0 81.8 22.25 64.16 47.09 76.33 87.55 99.36" style="fill: #a59375"/>
+      <polygon points="31.57 137.65 61.36 139.92 37.13 157.46 17.67 150.5 13.38 136.42 31.57 137.65" style="fill: #c9ad8d"/>
+    </g>
+  </g>
+</svg>

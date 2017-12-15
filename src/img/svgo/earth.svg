@@ -1,0 +1,20 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="257.5" height="254.62" viewBox="0 0 257.5 254.62">
+  <defs>
+    <clipPath id="clip-path" transform="translate(-271.41 -272.63)">
+      <circle cx="394.81" cy="390.96" r="98.42" transform="translate(0.49 782.42) rotate(-89.51)" style="fill: none"/>
+    </clipPath>
+  </defs>
+  <title>Untitled-4</title>
+  <g style="clip-path: url(#clip-path)">
+    <circle cx="395.13" cy="390.7" r="98.42" transform="translate(-270.34 509.85) rotate(-89.51)" style="fill: #9abdcc"/>
+    <polygon points="26.17 190.02 108.5 134.14 172.35 32.29 100.19 2.27 7.4 41.76 20.64 146.28 26.17 190.02" style="fill: #47687c"/>
+    <polygon points="177.54 123.09 131.95 96.73 175.23 22.05 257.5 76.94 177.54 123.09" style="fill: #83aeba"/>
+    <polygon points="143.96 76.02 177.54 123.09 108.5 134.14 108.5 134.14 143.96 76.02" style="fill: #8fb6c1"/>
+    <polygon points="227.99 91.27 221.38 169.73 182.26 196.94 177.54 123.09 177.54 123.09 227.99 91.27" style="fill: #9fc8d3"/>
+    <polygon points="204.55 216.79 108.5 134.14 78.57 154.46 83.53 254.62 204.55 216.79" style="fill: #8fb6c1"/>
+    <polygon points="90.89 126.67 25.05 145.34 0 41.69 100.19 2.27 90.89 126.67" style="fill: #205775"/>
+    <polygon points="82.76 207.99 78.57 154.46 44.34 177.69 44.34 198.14 82.76 207.99" style="fill: #80aabc"/>
+    <polygon points="1.99 40.9 90.89 126.67 102.29 0 1.99 40.9" style="fill: #28627c"/>
+    <polygon points="183 9.96 98.88 19.92 91.79 97.89 143.96 76.02 183 9.96" style="fill: #5c7c8e"/>
+  </g>
+</svg>

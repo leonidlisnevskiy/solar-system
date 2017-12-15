@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="287.04" height="293.31" viewBox="0 0 287.04 293.31">
+  <defs>
+    <clipPath id="clip-path" transform="translate(-256.86 -253.19)">
+      <circle cx="397.55" cy="418.13" r="128.38" style="fill: #e5a248"/>
+    </clipPath>
+  </defs>
+  <title>Untitled-2</title>
+  <g>
+    <circle cx="140.69" cy="164.93" r="128.38" style="fill: #e5a248"/>
+    <g style="clip-path: url(#clip-path)">
+      <polygon points="170.84 25.63 121.65 93.52 136.16 173.92 140.69 180.06 219.66 157.15 242.19 54.78 170.84 25.63" style="fill: #f4df89"/>
+      <polygon points="287.04 157.15 219.66 157.15 242.19 54.78 287.04 119 287.04 157.15" style="fill: #f9e98c"/>
+      <path d="M476.52,410.34l-69,31.35,79.74,21.74c-4-17.58-7.58-35.24-10-53.08h-0.74Z" transform="translate(-256.86 -253.19)" style="fill: #f9d373"/>
+      <path d="M543.9,410.34H477.27c2.41,17.85,6,35.5,10,53.08L525.93,474Z" transform="translate(-256.86 -253.19)" style="fill: #ffee9c"/>
+      <polygon points="209.29 281.53 230.4 210.23 269.07 220.78 260.54 260.37 209.29 281.53" style="fill: #f4c887"/>
+      <polygon points="150.66 188.49 230.4 210.23 211.29 273.56 205.61 293.31 111.58 225.26 121.65 209.7 150.66 188.49" style="fill: #f9bb4b"/>
+      <polygon points="23.76 110.58 0 180.68 34.32 249.99 87.47 220.78 89.46 211.2 23.76 110.58" style="fill: #f9bb4b"/>
+      <path d="M352.67,433.87l-24-77.83-46.47,3.12-1.56,4.61c16.51,36.34,65.7,100.62,65.7,100.62Z" transform="translate(-256.86 -253.19)" style="fill: #efab59"/>
+      <polygon points="140.69 109.64 71.79 102.85 95.81 180.68 136.16 185.8 219.66 157.15 140.69 109.64" style="fill: #f9c764"/>
+      <polygon points="111.58 20.13 71.79 102.85 25.32 105.97 29.17 46.63 111.58 20.13" style="fill: #edcc88"/>
+      <polygon points="116.58 0 88.73 67.64 71.79 102.85 140.69 109.64 165.26 27.23 116.58 0" style="fill: #ffee9c"/>
+      <polygon points="34.32 249.99 94.59 176.72 138 176.42 248.77 145.36 136.16 220.78 145.29 249.66 111.58 293.31 34.32 249.99" style="fill: #e5a248"/>
+      <polygon points="128.63 36.55 155.63 59.53 140.69 109.64 71.79 102.85 100.9 24.88 128.63 36.55" style="fill: #f4c887"/>
+      <polygon points="155.63 59.53 188.47 97.85 211.29 152.65 140.69 109.64 155.63 59.53" style="fill: #f9d373"/>
+    </g>
+  </g>
+</svg>

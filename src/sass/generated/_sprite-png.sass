@@ -1,0 +1,100 @@
+$icons: (0:0)
+$icons: map-merge($icons,('arrow-down': (X: -306px, Y:0px, W: 47px, H: 121px, TW: 353px, TH: 194px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,('facebook': (X: -234px, Y:-102px, W: 10px, H: 19px, TW: 353px, TH: 194px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,('facebook@2x': (X: -204px, Y:-102px, W: 20px, H: 38px, TW: 353px, TH: 194px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,('feat-00': (X: 0px, Y:0px, W: 92px, H: 92px, TW: 353px, TH: 194px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,('feat-01': (X: -102px, Y:0px, W: 92px, H: 92px, TW: 353px, TH: 194px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,('feat-02': (X: 0px, Y:-102px, W: 92px, H: 92px, TW: 353px, TH: 194px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,('feat-03': (X: -102px, Y:-102px, W: 92px, H: 92px, TW: 353px, TH: 194px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,('feat-04': (X: -204px, Y:0px, W: 92px, H: 92px, TW: 353px, TH: 194px, IMG: '../img/sprite.png')))
+$icons: map-merge($icons,('novaposhta': (X: -306px, Y:-131px, W: 35px, H: 35px, TW: 353px, TH: 194px, IMG: '../img/sprite.png')))
+
+
+// Gets an attribute from the sass map
+@function icon-attr($icon, $attr)
+  $icon: map-get($icons, $icon)
+  @return map-get($icon, $attr)
+
+@mixin sprite($iconName)
+  background-image: url(icon-attr($iconName, IMG))
+  width: icon-attr($iconName, W)
+  height: icon-attr($iconName, H)
+  background-position: icon-attr($iconName, X) icon-attr($iconName, Y)
+@mixin sprite-position($iconName)
+  background-position: icon-attr($iconName, X) icon-attr($iconName, Y)
+@mixin sprite-retina($iconName)
+  background-image: url(icon-attr($iconName, IMG))
+  $width: icon-attr($iconName, W)
+  $height: icon-attr($iconName, H)
+  width: $width/2
+  height: $height/2
+  $x: icon-attr($iconName, X)
+  $y: icon-attr($iconName, Y)
+  background-position: $x/2 $y/2
+  $tw: icon-attr($iconName, TW)   
+  $th: icon-attr($iconName, TH)
+  background-size: $tw/2 $th/2    
+
+
+@mixin s($i)
+  +sprite($i)
+@mixin sp($i)
+  +sprite-position($i)
+@mixin sr($i)
+  +sprite-retina($i)  
+
+//
+//.icon-arrow-down
+//  width: 47px
+//  height: 121px
+//  background-image: url('../img/sprite.png')
+//  background-position: -306px 0px
+//
+//.icon-facebook
+//  width: 10px
+//  height: 19px
+//  background-image: url('../img/sprite.png')
+//  background-position: -234px -102px
+//
+//.icon-facebook@2x
+//  width: 20px
+//  height: 38px
+//  background-image: url('../img/sprite.png')
+//  background-position: -204px -102px
+//
+//.icon-feat-00
+//  width: 92px
+//  height: 92px
+//  background-image: url('../img/sprite.png')
+//  background-position: 0px 0px
+//
+//.icon-feat-01
+//  width: 92px
+//  height: 92px
+//  background-image: url('../img/sprite.png')
+//  background-position: -102px 0px
+//
+//.icon-feat-02
+//  width: 92px
+//  height: 92px
+//  background-image: url('../img/sprite.png')
+//  background-position: 0px -102px
+//
+//.icon-feat-03
+//  width: 92px
+//  height: 92px
+//  background-image: url('../img/sprite.png')
+//  background-position: -102px -102px
+//
+//.icon-feat-04
+//  width: 92px
+//  height: 92px
+//  background-image: url('../img/sprite.png')
+//  background-position: -204px 0px
+//
+//.icon-novaposhta
+//  width: 35px
+//  height: 35px
+//  background-image: url('../img/sprite.png')
+//  background-position: -306px -131px
+//
