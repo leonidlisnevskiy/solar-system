@@ -2,6 +2,11 @@
   0% { transform: rotate(0); }
   100%   { transform: rotate(-360deg); }
 }
+
+@keyframes spin-planet {
+  0% { transform: rotate(0); }
+  100%   { transform: rotate(-360deg); }
+}
 @keyframes orbitearth {
   0% {
     transform: translate3d(0,0,0);
@@ -10,7 +15,7 @@
   49% {z-index:4;}
   50% {
     z-index:-4;
-    transform: translate3d(-210px,-100px,0);
+    transform: translate3d(-260px, -150px, 0);
   }
   99% {z-index:-4;}
   100%   {
@@ -22,7 +27,7 @@
   0% { z-index:5; transform: translate3d(0, 0, 0); }
   49% { z-index:5; }
   50% { z-index:-5;
-    transform: translate3d(230px,-90px, 0);
+    transform: translate3d(200px,-160px,0);
   }
   99% { z-index:-5;
   }
@@ -35,7 +40,7 @@
   }
   49% {z-index:4;}
   50% {
-    transform: translate3d(220px, 0, 0);
+    transform: translate3d(175px, 0, 0);
     z-index:-4;
   }
   99% {z-index:-4;}
@@ -91,15 +96,15 @@ body {
   height: 0px;
 }
 .sun {
-  width: 60px;
+  width: 80px;
   top: 0px;
   display: block;
   z-index: 1;
-  height: 60px !important;
+  height: 80px !important;
 }
 .sun .star {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   background-image: url('../img/sun.svg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -107,7 +112,7 @@ body {
   margin: 0 auto;
   position: relative;
   display: block;
-  animation: spinsun 40s infinite linear;
+  animation: spinsun 24s infinite linear;
 }
 
 .sun .star::before {
@@ -115,15 +120,15 @@ body {
   border-radius: 250px;
   display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 70px;
+  height: 70px;
   background-color: rgba(orange, .61);
   z-index: 1;
-  top: 3px;
+  top: 10px;
   box-shadow: 0 0px 50px 10px  #f9bb4b;
   transition: box-shadow .24s linear;
   animation: pulsar 4s infinite linear;
-  left: 0;
+  left: 5px;
 }
 
 
@@ -144,11 +149,11 @@ body {
   left: 100%;
 }
 .earth .planet {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-image: url('../img/earth.svg');
   background-size: cover;
-  // animation: anti-spin 20s infinite linear;
+  animation: spin-planet 11s infinite linear;
 }
 .mars {
   position: absolute;
@@ -158,10 +163,10 @@ body {
   top: 0;
 }
 .mars .planet {
-  width:22px;
-  height:22px;
+  width: 50px;
+  height: 50px;
   background-image: url('../img/mars.svg');
-  // animation: anti-spin 30s infinite linear;
+  animation: spin-planet 6s infinite linear;
 }
 
 
@@ -170,13 +175,13 @@ body {
   width: 100%;
   max-width: 1100px;
   z-index:6;
-  animation: orbitjupiter 4.5s infinite linear;
-  top: -45px;
+  animation: orbitjupiter 4s infinite linear;
+  top: -70px;
 }
 .jupiter .planet {
-  width: 30px;
-  height: 30px;
+  width: 55px;
+  height: 55px;
   background: url("../img/jupiter.svg") no-repeat;
+  animation: spin-planet 16s infinite linear;
   background-size: cover;
-  // animation: anti-spin 60s infinite linear;
 }
