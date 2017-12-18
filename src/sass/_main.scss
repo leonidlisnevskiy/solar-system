@@ -75,13 +75,13 @@ body {
   height: 100%;
 }
 .preloader{
-  position:relative;
   margin: 0 auto;
+  position:relative;
+  perspective: 1000px;
   padding: 220px 0px;
   max-width: 250px;
   width: 100%;
   display: block;
-  perspective: 1000px;
   perspective-origin: 60% 50%;
 }
 .preloader > div {
@@ -121,7 +121,7 @@ body {
   z-index: 1;
   top: 3px;
   box-shadow: 0 0px 50px 10px  #f9bb4b;
-  transition: box-shadow .34s linear;
+  transition: box-shadow .24s linear;
   animation: pulsar 4s infinite linear;
   left: 0;
 }
